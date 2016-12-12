@@ -1,4 +1,4 @@
-package randstring
+package gorandstring
 
 import (
 	"math/rand"

@@ -1,4 +1,4 @@
-# go-randstring
+# gorandstring
 Random string generator
 
 ## Source
