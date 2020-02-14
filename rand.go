@@ -20,7 +20,6 @@ func init() {
 // Get returns a random stirng of length n
 // http://stackoverflow.com/questions/22892120/how-to-generate-a-random-string-of-a-fixed-length-in-golang
 func Get(n int) string {
-
 	b := make([]byte, n)
 
 	// A rand.Int63() generates 63 random bits, enough for letterIdxMax letters!

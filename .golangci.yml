@@ -1,0 +1,14 @@
+linters:
+  enable-all: true
+  disable:
+    - lll
+    - wsl
+    - gomnd
+
+issues:
+  exclude-use-default: false
+  exclude-rules:
+    - path: rand\.go
+      linters:
+        - gochecknoinits
+        - dupl
