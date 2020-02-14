@@ -1,3 +1,4 @@
+// Package gorandstring provide a function to get a rand string of length n
 package gorandstring
 
 import (
